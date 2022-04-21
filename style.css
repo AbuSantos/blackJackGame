@@ -1,0 +1,63 @@
+.container{
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.game-box{
+  display: flex;
+  gap:2px;
+  flex-wrap: wrap;
+  direction: row;
+  border: 1px solid black;
+  background: url("./images/blackJackbackground.png");
+}
+
+.game-box div{
+  flex: 1;
+  height: 350px;
+text-align:center ;
+border: 1px solid black;
+}
+.play-box img{
+  width: 100px;
+}
+
+.footer{
+
+}
+
+.options-buttons button{
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  /* box-shadow: ; */
+}
+.yellow{
+  background: rgb(255, 255, 0);
+  color: rgb(66, 66, 2);
+}
+.red{
+  background: red;
+  color: rgb(79, 5, 5);
+}
+.blue{
+  background: blue;
+  color: rgb(1, 1, 41);
+}
+.options-button button:nth-child(0){
+  background: red;
+  border: 1px solid green;
+}
+
+.results-box{
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
